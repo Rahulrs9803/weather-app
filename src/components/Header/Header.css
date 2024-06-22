@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #282c34;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.header button:active {
+    background: white;
+    color: #282c34;
+}

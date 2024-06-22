@@ -1,0 +1,14 @@
+.weather-details{
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    color: white;
+}
+
+.weather-details h3{
+    margin-top: 0;
+}
+
+.weather-details p {
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,3 @@
+First page will have two components
+Component 1 will have input city field for weather, search button for searching weather and History button which will be navigating to next page where list of all searches will be shown.  The history button will take to next page 2 and show history of all the searches done by us in the past
+ 

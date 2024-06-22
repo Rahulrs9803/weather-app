@@ -1,0 +1,25 @@
+.hourly-forecast {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .hourly-forecast h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .hourly-forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .hourly-forecast-item {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  

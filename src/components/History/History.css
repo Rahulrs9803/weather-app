@@ -1,0 +1,18 @@
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #0093E9, #80D0C7);
+    color: white;
+    font-size: 1.2rem;
+    height: 100vh;
+}
+
+.history-item {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 10px;
+}
