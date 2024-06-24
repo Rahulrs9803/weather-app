@@ -1,9 +1,7 @@
 import React from "react";
-// import { SearchHistoryContext } from '../../context/SearchHistoryContext';
 import "./History.css";
 
 const History = ({ searchHistory, handleHistoryItemClick }) => {
-  //   const { history } = useContext(SearchHistoryContext);
 
   if (searchHistory.length === 0) {
     return (

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const useCurrentLocation = (onLocationFetched) => {
   const [location, setLocation] = useState({ latitude: null, longitude: null });

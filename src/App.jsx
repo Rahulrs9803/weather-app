@@ -80,6 +80,7 @@ const App = () => {
 
   const handleGetCurrentLocation = () => {
     setSearchType("location");
+    setShowHistory(false);
     getLocation();
   };
 
@@ -111,7 +112,6 @@ const App = () => {
         handleHistoryButton={handleHistoryButton}
       />
       <SearchBar onSearch={handleSearch} />
-      {/* <button onClick={() => setSearchHistory((prev) => !prev)}>History</button> */}
       {
         showHistory && (
           <History
@@ -119,21 +119,6 @@ const App = () => {
             handleHistoryItemClick={handleHistoryItemClick}
           />
         )
-        // showHistory && (
-        //   <div className='history'>
-        //     <h2>Search History</h2>
-        //     <ul>
-        //       {
-        //         searchHistory.map((city, index) => (
-        //           <li key={index} onClick={() => handleHistoryItemClick(city)}>
-        //             {city}
-        //           </li>
-        //         ))
-        //       }
-        //     </ul>
-
-        //   </div>
-        // )
       }
       {loading && <p>Loading...</p>}
       {error && <p className="error">{error}</p>}
